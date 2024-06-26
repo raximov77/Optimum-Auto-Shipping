@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/site-favicon.svg">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Optimum Auto Shipping</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header">
+                <a href="/">
+                    <img src="./images/site-logo.svg" alt="Site Logo" width="245" height="43">
+                </a>
+                <nav class="header-navbar navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#">Services</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#">About Us</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#">Shipping Methods</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="header-tel" href="tel:+224-218-2949">
+                    <img src="./images/telephone.svg" alt="Tel" width="38" height="38">
+                    224-218-2949
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero">
+                    <div class="form-content-wrapper">
+                        <h2 class="form-title">Shipping Cost Calculator</h2>
+                        <p class="form-text">Get your estimate quote in seconds</p>
+                        <span class="form-line"></span>
+                        <form class="form" action="https://echo.htmlacademy.ru" method="post" autocomplete="off">
+                            <label class="label">
+                                From
+                                <input class="input" type="text" name="from" placeholder="Select ZIP code or location" required>
+                            </label>
+                            <label class="label">
+                                To
+                                <input class="input" type="text" name="from" placeholder="Select ZIP code or location" required>
+                            </label>
+                            <label class="label-date">
+                                Estimate time
+                                <input class="input-date" type="date" name="time" placeholder="Select estimate time" required>
+                            </label>
+                            <h3 class="form-subtitle">Transport type</h3>
+                            <div class="radio-flex">
+                                <label class="open-label">
+                                    <input class="open-input" type="radio" name="open" required>
+                                    Open
+                                </label>
+                                <label class="enclosed-label">
+                                    <input class="enclosed-input" type="radio" name="open" required >
+                                    Enclosed
+                                </label>
+                            </div>
+                            <span class="form-line"></span>
+                            <button class="form-btn" type="submit">Get Shipment estimate</button>
+                        </form>
+                    </div>
+
+                    <div class="hero-content">
+                        <p class="hero-content-top-text">World Top Rated Shipping Company</p>
+                        <h1 class="hero-content-title">Transportation Services that you can trust</h1>
+                        <p class="hero-content-bottom-text">Transport your vehicle with PROs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html

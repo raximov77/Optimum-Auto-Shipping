@@ -1,0 +1,216 @@
+.hero-section {
+    height: 120vh;
+    padding: 180px 0 93px 0;
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
+.hero {
+    display: flex;
+    gap: 85px;
+}
+
+.form-content-wrapper {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background: rgba(58, 58, 58, 0.5);
+}
+
+.form-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.form-text {
+    margin: 8px 0 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.form-line {
+    margin-bottom: 25px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.input {
+    padding: 16px 0 16px 47px;
+    background-image: url(../../images/form-location-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+
+}
+.label-date {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.input-date {
+    padding: 16px 0 16px 48px;
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    background-image: url(../../images/form-date-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    cursor: pointer;
+}
+input::-webkit-calendar-picker-indicator{
+	/* display: none;  */ 
+    margin-right: 15px;
+}
+input[type="date"]::-webkit-input-placeholder{
+	visibility: hidden !important;
+}
+.form-subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+.radio-flex {
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-label {
+    width: 192px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.enclosed-label {
+    width: 192px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.form-btn {
+    width: 399px;
+    padding: 17px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 125, 68);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.hero-content {
+    width: 576px;
+    padding-top: 43px;
+    text-align: left;
+}
+.hero-content-top-text {
+    margin-left: 34px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    
+    &::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-image: url(../../images/star.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0;
+    bottom: 0;
+    left: -33px;
+    margin: auto 0;
+}
+}
+.hero-content-title {
+    margin: 11px 0 20px 0;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0%;
+}
+.hero-content-bottom-text {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
