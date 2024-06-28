@@ -1,0 +1,55 @@
+
+
+.site-footer {
+    padding: 50px 0 50px 0;
+    background: rgb(40, 40, 40);
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-logo-text {
+    margin: 16px 0 55px 0;
+    color: rgba(255, 255, 255, 0.68);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+.footer-right {
+    color: rgba(255, 255, 255, 0.38);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+.footer-link-wrapper {
+    margin-left: 125px;
+    display: flex;
+    gap: 110px;
+}
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.68);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.footer-name {
+    margin-bottom: 20px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
