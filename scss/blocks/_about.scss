@@ -1,0 +1,48 @@
+.about-section {
+    margin-top: 100px;
+}
+
+.about-wrapper {
+    display: flex;
+    gap: 25px
+}
+
+.about-us {
+    margin-top: 37px;
+}
+.about-us__title {
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+}
+
+.about-us-text {
+    margin: 16px 0 50px 0;
+    color: rgba(0, 0, 0, 0.68);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+} 
+
+.our-mission__title {
+    margin: 50px 0 16px 26px;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+} 
+.our-mission-text {
+    margin-left: 26px;
+    color: rgba(0, 0, 0, 0.68);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;   
+}

@@ -1,0 +1,121 @@
+
+
+.service-section {
+    padding: 118px 0 173px 0;
+}
+
+.service-content-wrapper {
+    text-align: center;
+    margin-bottom: 96px;
+}
+.service-title {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+}
+.service-text {
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.68);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 49px;
+}
+.service-item {
+    cursor: pointer;
+    width: 354px;
+    height: 465px;
+    position: relative;
+    transition: all 0.4s;
+    overflow: hidden;
+    box-shadow: 0 0 2px 0 #000;
+
+    &:hover >.service-img {
+        height: 50%;
+    }
+    &:hover >.service__hidden-content {
+        bottom: 0;
+    }
+}
+.service-img {
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+.service-subcontent {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
+.car-title {
+    margin-bottom: 19px;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+.car-text {
+    color: rgba(255, 255, 255, 0.87);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.service__hidden-content {
+    padding: 20px;
+    position: absolute;
+    bottom: -100%;   
+    height: 50%;
+    transition: all 0.3s; 
+}
+
+.service__hidden-content > h3 {
+    color: #000;
+    font-family: Inter; 
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;    
+}
+
+.service__hidden-content > p {
+    margin: 10px 0 15px 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.service__hidden-content > a {
+    color: $link-color;
+    font-family: Inter;
+    padding-right: 30px;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 15px;
+        height: 15px;
+        margin: auto 0;
+        background-image: url(../../images/arrow.svg); 
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}

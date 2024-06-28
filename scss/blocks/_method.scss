@@ -1,0 +1,74 @@
+
+.method-section {
+    margin-top: 171px;
+}
+
+.method {
+    text-align: center;
+}
+.method-title {
+    margin-bottom: 15px;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+}
+
+.method-text {
+    margin-bottom: 80px;
+    color: rgba(0, 0, 0, 0.68);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%; 
+}
+.rail {
+    display: flex;
+    gap: 24px;
+}
+.rail-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.rail-content {
+    text-align: left;
+}
+.rail-content-title {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+.rail-content-text {
+    width: 545px;
+    margin: 15px 0 30px 0;
+    color: rgba(0, 0, 0, 0.68);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.rail-content-btn {
+    width: 259px;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background: white;
+    border: 1px solid rgb(255, 125, 68);
+    border-radius: 3px;
+    cursor: pointer;
+}
