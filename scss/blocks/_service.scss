@@ -2,6 +2,9 @@
 
 .service-section {
     padding: 118px 0 173px 0;
+    background-image: url(../../images/service-top-bg.svg), url(../../images/service-bottom-bg..svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 .service-content-wrapper {

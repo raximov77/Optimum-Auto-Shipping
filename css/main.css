@@ -351,6 +351,9 @@ input[type=date]::-webkit-input-placeholder {
 
 .service-section {
   padding: 118px 0 173px 0;
+  background-image: url(../../images/service-top-bg.svg), url(../../images/service-bottom-bg..svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 
 .service-content-wrapper {
@@ -545,7 +548,7 @@ input[type=date]::-webkit-input-placeholder {
 }
 
 .about-section {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .about-wrapper {
@@ -595,7 +598,7 @@ input[type=date]::-webkit-input-placeholder {
 }
 
 .method-section {
-  margin-top: 171px;
+  padding-top: 171px;
 }
 
 .method {
